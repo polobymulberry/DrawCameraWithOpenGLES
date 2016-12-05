@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C504EF311DF503A900882815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C504EF301DF503A900882815 /* main.m */; };
+		C504EF341DF503A900882815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C504EF331DF503A900882815 /* AppDelegate.m */; };
+		C504EF371DF503A900882815 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C504EF361DF503A900882815 /* ViewController.m */; };
+		C504EF3A1DF503A900882815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C504EF381DF503A900882815 /* Main.storyboard */; };
+		C504EF3C1DF503A900882815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C504EF3B1DF503A900882815 /* Assets.xcassets */; };
+		C504EF3F1DF503A900882815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C504EF3D1DF503A900882815 /* LaunchScreen.storyboard */; };
+		C504EF4E1DF5051E00882815 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C504EF481DF5051E00882815 /* EAGLView.m */; };
+		C504EF4F1DF5051E00882815 /* ES1Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C504EF4A1DF5051E00882815 /* ES1Renderer.mm */; };
+		C504EF501DF5051E00882815 /* PJXVideoBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C504EF4D1DF5051E00882815 /* PJXVideoBuffer.mm */; };
+		CC827AADB55258AC15FDDA02 /* libPods-DrawCameraWithOpenGLES.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B04AEA5FDBB6B4D437D1216 /* libPods-DrawCameraWithOpenGLES.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		108DA82BB5528882F80B4FC8 /* Pods-DrawCameraWithOpenGLES.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawCameraWithOpenGLES.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawCameraWithOpenGLES/Pods-DrawCameraWithOpenGLES.release.xcconfig"; sourceTree = "<group>"; };
+		6434DCDDBA0B52C5AC891F56 /* Pods-DrawCameraWithOpenGLES.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawCameraWithOpenGLES.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawCameraWithOpenGLES/Pods-DrawCameraWithOpenGLES.debug.xcconfig"; sourceTree = "<group>"; };
+		8B04AEA5FDBB6B4D437D1216 /* libPods-DrawCameraWithOpenGLES.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawCameraWithOpenGLES.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C504EF2C1DF503A900882815 /* DrawCameraWithOpenGLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawCameraWithOpenGLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C504EF301DF503A900882815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C504EF321DF503A900882815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C504EF331DF503A900882815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C504EF351DF503A900882815 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C504EF361DF503A900882815 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C504EF391DF503A900882815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C504EF3B1DF503A900882815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C504EF3E1DF503A900882815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C504EF401DF503A900882815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C504EF461DF5051E00882815 /* DrawCameraWithOpenGLES-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DrawCameraWithOpenGLES-PrefixHeader.pch"; sourceTree = "<group>"; };
+		C504EF471DF5051E00882815 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		C504EF481DF5051E00882815 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		C504EF491DF5051E00882815 /* ES1Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ES1Renderer.h; sourceTree = "<group>"; };
+		C504EF4A1DF5051E00882815 /* ES1Renderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ES1Renderer.mm; sourceTree = "<group>"; };
+		C504EF4B1DF5051E00882815 /* ESRenderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESRenderProtocol.h; sourceTree = "<group>"; };
+		C504EF4C1DF5051E00882815 /* PJXVideoBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJXVideoBuffer.h; sourceTree = "<group>"; };
+		C504EF4D1DF5051E00882815 /* PJXVideoBuffer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PJXVideoBuffer.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C504EF291DF503A900882815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC827AADB55258AC15FDDA02 /* libPods-DrawCameraWithOpenGLES.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A703ACD075D9A8DCAB20749E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B04AEA5FDBB6B4D437D1216 /* libPods-DrawCameraWithOpenGLES.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2328F3727881437B18CD4EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6434DCDDBA0B52C5AC891F56 /* Pods-DrawCameraWithOpenGLES.debug.xcconfig */,
+				108DA82BB5528882F80B4FC8 /* Pods-DrawCameraWithOpenGLES.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C504EF231DF503A900882815 = {
+			isa = PBXGroup;
+			children = (
+				C504EF2E1DF503A900882815 /* DrawCameraWithOpenGLES */,
+				C504EF2D1DF503A900882815 /* Products */,
+				C2328F3727881437B18CD4EC /* Pods */,
+				A703ACD075D9A8DCAB20749E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C504EF2D1DF503A900882815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C504EF2C1DF503A900882815 /* DrawCameraWithOpenGLES.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C504EF2E1DF503A900882815 /* DrawCameraWithOpenGLES */ = {
+			isa = PBXGroup;
+			children = (
+				C504EF461DF5051E00882815 /* DrawCameraWithOpenGLES-PrefixHeader.pch */,
+				C504EF471DF5051E00882815 /* EAGLView.h */,
+				C504EF481DF5051E00882815 /* EAGLView.m */,
+				C504EF491DF5051E00882815 /* ES1Renderer.h */,
+				C504EF4A1DF5051E00882815 /* ES1Renderer.mm */,
+				C504EF4B1DF5051E00882815 /* ESRenderProtocol.h */,
+				C504EF4C1DF5051E00882815 /* PJXVideoBuffer.h */,
+				C504EF4D1DF5051E00882815 /* PJXVideoBuffer.mm */,
+				C504EF321DF503A900882815 /* AppDelegate.h */,
+				C504EF331DF503A900882815 /* AppDelegate.m */,
+				C504EF351DF503A900882815 /* ViewController.h */,
+				C504EF361DF503A900882815 /* ViewController.m */,
+				C504EF381DF503A900882815 /* Main.storyboard */,
+				C504EF3B1DF503A900882815 /* Assets.xcassets */,
+				C504EF3D1DF503A900882815 /* LaunchScreen.storyboard */,
+				C504EF401DF503A900882815 /* Info.plist */,
+				C504EF2F1DF503A900882815 /* Supporting Files */,
+			);
+			path = DrawCameraWithOpenGLES;
+			sourceTree = "<group>";
+		};
+		C504EF2F1DF503A900882815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C504EF301DF503A900882815 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C504EF2B1DF503A900882815 /* DrawCameraWithOpenGLES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C504EF431DF503A900882815 /* Build configuration list for PBXNativeTarget "DrawCameraWithOpenGLES" */;
+			buildPhases = (
+				3F723E52E28400FFF87058A5 /* [CP] Check Pods Manifest.lock */,
+				C504EF281DF503A900882815 /* Sources */,
+				C504EF291DF503A900882815 /* Frameworks */,
+				C504EF2A1DF503A900882815 /* Resources */,
+				86C7093B64EB7356298B3DCA /* [CP] Embed Pods Frameworks */,
+				DA35689EFDCD05504A22EF10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawCameraWithOpenGLES;
+			productName = DrawCameraWithOpenGLES;
+			productReference = C504EF2C1DF503A900882815 /* DrawCameraWithOpenGLES.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C504EF241DF503A900882815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = polobymulberry;
+				TargetAttributes = {
+					C504EF2B1DF503A900882815 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = EKY958AQE2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C504EF271DF503A900882815 /* Build configuration list for PBXProject "DrawCameraWithOpenGLES" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C504EF231DF503A900882815;
+			productRefGroup = C504EF2D1DF503A900882815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C504EF2B1DF503A900882815 /* DrawCameraWithOpenGLES */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C504EF2A1DF503A900882815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C504EF3F1DF503A900882815 /* LaunchScreen.storyboard in Resources */,
+				C504EF3C1DF503A900882815 /* Assets.xcassets in Resources */,
+				C504EF3A1DF503A900882815 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F723E52E28400FFF87058A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86C7093B64EB7356298B3DCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawCameraWithOpenGLES/Pods-DrawCameraWithOpenGLES-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA35689EFDCD05504A22EF10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawCameraWithOpenGLES/Pods-DrawCameraWithOpenGLES-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C504EF281DF503A900882815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C504EF501DF5051E00882815 /* PJXVideoBuffer.mm in Sources */,
+				C504EF371DF503A900882815 /* ViewController.m in Sources */,
+				C504EF4F1DF5051E00882815 /* ES1Renderer.mm in Sources */,
+				C504EF4E1DF5051E00882815 /* EAGLView.m in Sources */,
+				C504EF341DF503A900882815 /* AppDelegate.m in Sources */,
+				C504EF311DF503A900882815 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C504EF381DF503A900882815 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C504EF391DF503A900882815 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C504EF3D1DF503A900882815 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C504EF3E1DF503A900882815 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C504EF411DF503A900882815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C504EF421DF503A900882815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C504EF441DF503A900882815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6434DCDDBA0B52C5AC891F56 /* Pods-DrawCameraWithOpenGLES.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EKY958AQE2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DrawCameraWithOpenGLES/DrawCameraWithOpenGLES-PrefixHeader.pch";
+				INFOPLIST_FILE = DrawCameraWithOpenGLES/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panjianxiong.DrawCameraWithOpenGLES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C504EF451DF503A900882815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108DA82BB5528882F80B4FC8 /* Pods-DrawCameraWithOpenGLES.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EKY958AQE2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DrawCameraWithOpenGLES/DrawCameraWithOpenGLES-PrefixHeader.pch";
+				INFOPLIST_FILE = DrawCameraWithOpenGLES/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panjianxiong.DrawCameraWithOpenGLES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C504EF271DF503A900882815 /* Build configuration list for PBXProject "DrawCameraWithOpenGLES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C504EF411DF503A900882815 /* Debug */,
+				C504EF421DF503A900882815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C504EF431DF503A900882815 /* Build configuration list for PBXNativeTarget "DrawCameraWithOpenGLES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C504EF441DF503A900882815 /* Debug */,
+				C504EF451DF503A900882815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C504EF241DF503A900882815 /* Project object */;
+}
